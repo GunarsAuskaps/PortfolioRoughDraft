@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Crimson Text', serif;
+}
+h1{
+  text-align: center;
+  margin-left: 33%;
+  margin-right:33%
+}
+.navbar{
+  z-index: 9990;
+  position: fixed;
+  width: 100%;
+  background-color: purple;
+}
+
+.name{
+  display: inline-block;
+  font-size: 50px;
+  margin-top: 15px;
+  margin-left: 100px;
+  color: greenyellow;
+}
+
+.navbar > .content{
+  width: 900px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.navbar .links {
+  float:right;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.navbar .links li{
+  display:inline-block;
+  margin-left: 30px;
+  margin-right: 100px;
+  color:greenyellow;
+}
+
+
+nav div ul li:hover {
+  cursor: pointer;
+}
+a {color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+
+#Portfolio img {
+  border: 2px black solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  font-size: 1.2em;
+  background: #01213b;
+  padding: 5px 16px;
+  text-decoration: none;
+  border: none;
+  min-width: 134px;
+  border: 2px solid #01213b;
+}
+button:hover{
+  cursor: pointer;
+  background-color: #063B67;
+  border: 2px solid #063B67;
+}
+
+footer{
+  width:100%;
+  
+  background-color: purple;
+  color: greenyellow;
+  height: 50px;
+  font-size: 1.2em;
+}
+
+#resume {padding-top:200px; margin:0 auto; text-align: center;}
+
+img {border: 2px black solid; margin: 0 20px; margin-bottom: 20px;}
+
+@media only screen and (max-width: 600px) {
+  .image {
+    display: block;
+    margin-bottom: 10px;
+  }
+  img {margin: 0 auto;}
+  
+  ul.links {padding: 0;}
+}
