@@ -1,17 +1,18 @@
 * {
   box-sizing: border-box;
-  font-family: 'Crimson Text', serif;
 }
 h1{
   text-align: center;
   margin-left: 33%;
-  margin-right:33%
+  margin-right:33%;
+  font-family: 'Crimson Text', serif;
 }
 .navbar{
   z-index: 9990;
   position: fixed;
   width: 100%;
   background-color: purple;
+  font-family: 'Crimson Text', serif;
 }
 
 .name{
@@ -19,28 +20,35 @@ h1{
   font-size: 50px;
   margin-top: 15px;
   margin-left: 100px;
-  color: greenyellow;
+  color: yellow;
+  font-family: 'Crimson Text', serif;
 }
 
 .navbar > .content{
   width: 900px;
   height: 50px;
   margin: 0 auto;
+  font-family: 'Crimson Text', serif;
 }
 
 .navbar .links {
   float:right;
   font-size: 25px;
   margin-top: 15px;
+  font-family: 'Crimson Text', serif;
 }
 
 .navbar .links li{
   display:inline-block;
   margin-left: 30px;
   margin-right: 100px;
-  color:greenyellow;
+  color:yellow;
+  font-family: 'Crimson Text', serif;
 }
 
+.navbar .jumper {
+  color: yellow;
+}
 
 nav div ul li:hover {
   cursor: pointer;
@@ -66,24 +74,23 @@ button {
   margin-right: auto;
   color: #ffffff;
   font-size: 1.2em;
-  background: #01213b;
+  background: purple;
   padding: 5px 16px;
   text-decoration: none;
   border: none;
   min-width: 134px;
-  border: 2px solid #01213b;
+  font-family: 'Crimson Text', serif;
 }
 button:hover{
   cursor: pointer;
-  background-color: #063B67;
-  border: 2px solid #063B67;
+  background-color: plum;
 }
 
 footer{
   width:100%;
-  
+  font-family: 'Crimson Text', serif;
   background-color: purple;
-  color: greenyellow;
+  color: yellow;
   height: 50px;
   font-size: 1.2em;
 }
@@ -92,6 +99,13 @@ footer{
 
 img {border: 2px black solid; margin: 0 20px; margin-bottom: 20px;}
 
+@media screen and (min-width: 500px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
 @media only screen and (max-width: 600px) {
   .image {
     display: block;
